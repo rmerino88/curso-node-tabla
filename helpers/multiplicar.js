@@ -29,7 +29,7 @@ const crearArchivo = (base = 5, listar, hasta) => {
     return(`tabla-${base}.txt`);
 }
 
-const crearArchivoPromise = async (base = 5, listar, hasta) => {
+const crearArchivoPromise = (base = 5, listar, hasta) => {
     return new Promise((resolve, reject) => {
         let salida = '';
         salida = salida.concat(`=====================\n`);
