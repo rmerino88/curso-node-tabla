@@ -9,6 +9,7 @@ const argvApp = require('./config/yargs')
  * Para obetener información del proceso ejecutado: process
  */
 // console.log(process.argv);
+
 /**
  * Yargs crea un objeto con la información del proceso y de la llamada de este.
  * Podemos configurar el tipo de los parámetros de entrada.
